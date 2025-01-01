@@ -6,7 +6,8 @@ const Testimonials = () => {
       id: 1,
       name: 'Doe',
       review: 'These dogs are amazing! A must-have for anyone seeking top-quality breeds.',
-      image: '/images/logo/pexels-hannah-depriest-39587-137722.jpg',
+      image: '/images/logo/pexels-hannah-depriest-39587-137722.jpg'
+
     },
     {
       id: 2,
