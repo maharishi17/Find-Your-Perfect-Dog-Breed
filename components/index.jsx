@@ -5,7 +5,7 @@ import { BrowserRouter } from "react-router";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-    <BrowserRouter basename="Find-Your-Perfect-Dog-Breed">
+
     <App />
-  </BrowserRouter>
+
 );

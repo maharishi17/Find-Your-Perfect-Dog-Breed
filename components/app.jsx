@@ -15,7 +15,7 @@ import Lamber from "./pop";
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/Find-Your-Perfect-Dog-Breed">
       <Routes>
         <Route path="/" element={<div><HomePage/></div>} /> 
         <Route path="/sign" element={<SignIn />} /> 
