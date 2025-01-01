@@ -1,14 +1,15 @@
 {
   "name": "types",
+  "homepage": "https://maharishi17.github.io/Find-Your-Perfect-Dog-Breed",
   "version": "1.0.0",
-
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vite",
     "build": "vite build",
-    "start": "vite preview"
-
+    "start": "vite preview",
+     "preview": "vite preview",
+     "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
