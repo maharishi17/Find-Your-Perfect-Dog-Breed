@@ -10,7 +10,7 @@ const PaymentPage = () => {
     setShowAlert(true); // Show the alert
     setTimeout(() => {
       setShowAlert(false); // Hide the alert after 3 seconds
-      navigate("/"); // Navigate to "/home" after 6 seconds
+      navigate("/Find-Your-Perfect-Dog-Breed/"); // Navigate to "/home" after 6 seconds
     }, 3000); // 6 seconds delay
   };
 

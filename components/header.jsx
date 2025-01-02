@@ -13,7 +13,7 @@ const Header = () => {
       </nav>
 
       <div className="header-icons">
-        <a className="lap" href="/sign">
+        <a className="lap" href="/Find-Your-Perfect-Dog-Breed/sign">
           <img src="/Find-Your-Perfect-Dog-Breed/images/logo/login.png" className="iconn" alt="Login Icon" />
         </a>
       </div>

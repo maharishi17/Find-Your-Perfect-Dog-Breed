@@ -9,15 +9,17 @@ const Register = () => {
   const [confirmPassword, setConfirmPassword] = useState('');
   const navigate = useNavigate();
 
-
   const update = (e) => {
     e.preventDefault();
-    navigate("/")
 
+    // Check if passwords match before navigating
     if (password !== confirmPassword) {
       alert("Passwords do not match");
       return;
     }
+
+    // Navigate to the home page after successful registration
+    navigate("/Find-Your-Perfect-Dog-Breed/"); // Or redirect to another page like login
   };
 
   return (
@@ -74,7 +76,7 @@ const Register = () => {
         />
 
         <button type="submit">Register</button>
-        <p>Already have an account? <a href="/">Sign In</a></p>
+        <p>Already have an account? <a href="/Find-Your-Perfect-Dog-Breed/sign">Sign In</a></p>
       </div>
     </form>
   );

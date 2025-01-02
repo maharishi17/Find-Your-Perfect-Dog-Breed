@@ -13,11 +13,29 @@ import Register from "./register";
 import PaymentPage from "./payment";
 import Lamber from "./pop";
 
+// HomePage Component
+const HomePage = () => {
+  return (
+    <div> 
+      <Lamber />
+      <Header />
+      <HeroSection />
+      <Features /> 
+      <ProductRow /> 
+      <Testimonials />
+      <AboutUs />
+      <Contact />
+      <Footer />  
+    </div>
+  );
+};
+
+// App Component
 const App = () => {
   return (
     <Router basename="/Find-Your-Perfect-Dog-Breed">
       <Routes>
-        <Route path="/" element={<div><HomePage/></div>} /> 
+        <Route path="/" element={<HomePage />} /> 
         <Route path="/sign" element={<SignIn />} /> 
         <Route path="/register" element={<Register />} /> 
         <Route path="/payment" element={<PaymentPage />} />
@@ -25,20 +43,5 @@ const App = () => {
     </Router>
   );
 };
-
-{/* <HomePage /> */}
-const HomePage = () =>{
-  return <div> 
-    <Lamber />
-    <Header />
-    <HeroSection />
-    <Features /> 
-    <ProductRow /> 
-    <Testimonials />
-    <AboutUs />
-    <Contact />
-    <Footer />  
-  </div>
-}
 
 export default App;

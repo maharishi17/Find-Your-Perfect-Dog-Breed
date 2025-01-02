@@ -35,7 +35,7 @@ const SignIn = () => {
         />
 
         <button type="submit">Sign In</button>
-        <p className="rep">Don't Have An Account? <a href="/register">Register Here</a>   </p>
+        <p className="rep">Don't Have An Account? <a href="/Find-Your-Perfect-Dog-Breed/register">Register Here</a>   </p>
       </div>
     </form>
   );
