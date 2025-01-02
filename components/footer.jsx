@@ -12,11 +12,6 @@ const Footer = () => {
             © {currentYear} Maharishi Company. All rights reserved.
           </p>
         </div>
-        <div className="footer-links">
-          <a href="#about" className="footer-link">About Us</a>
-          <a href="#services" className="footer-link">Services</a>
-          <a href="#contact" className="footer-link">Contact</a>
-        </div>
       </div>
     </footer>
   );
