@@ -647,11 +647,11 @@ html, body {
 
 /* Contact Section */
 .contact-section {
-  padding: 6rem 4rem;
+  padding: 6rem 6rem;
 }
 
 .contact-container {
-  max-width: 800px; /* Fixed width for better alignment */
+  max-width: 100%;
   margin: 0 auto;
   text-align: center;
 }
@@ -673,11 +673,11 @@ html, body {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
-  background-color: #6c757d;
-  padding: 3rem;
-  border-radius: 8px;
-  width: 100%; /* Ensure the form takes full width */
-  box-sizing: border-box; /* Prevent overflow */
+  background-color: hwb(160 14% 84%);
+  padding: 1rem;
+  border-radius: 12px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .form-group {
@@ -696,11 +696,12 @@ html, body {
   width: 100%;
   padding: 10px;
   font-size: 1rem;
-  color: black;
-  border: 1px solid hsl(0, 0%, 0%);
+  color: hsl(0, 0%, 0%);
+  border: 1px solid rgb(255, 255, 255);
   border-radius: 5px;
   outline: none;
   transition: border-color 0.3s ease;
+  box-sizing: border-box; /* Ensure the padding does not affect the border */
 }
 
 .form-input:focus,
@@ -743,126 +744,126 @@ html, body {
 /* For Tablets and Smaller Screens */
 @media (max-width: 1024px) {
   .contact-section {
-    padding: 4rem 2rem; /* Adjust padding for tablets */
+    padding: 4rem 2rem;
   }
 
   .contact-heading {
-    font-size: 2rem; /* Smaller heading size for tablets */
+    font-size: 2rem;
   }
 
   .contact-text {
-    font-size: 1.1rem; /* Slightly larger text for readability */
+    font-size: 1.1rem;
   }
 
   .contact-form {
-    gap: 1.2rem; /* Adjust form gap for tablets */
+    gap: 1.2rem;
   }
 
   .form-label {
-    font-size: 1.1rem; /* Adjust form label font size */
+    font-size: 1.1rem;
   }
 
   .form-input,
   .form-textarea {
-    font-size: 1.1rem; /* Increase font size for inputs */
+    font-size: 1.1rem;
   }
 
   .contact-button {
-    font-size: 1.1rem; /* Adjust button font size */
+    font-size: 1.1rem;
   }
 
   .payment-button {
-    font-size: 1.1rem; /* Adjust payment button font size */
+    font-size: 1.1rem;
   }
 }
 
 /* For Mobile Screens */
 @media (max-width: 768px) {
   .contact-section {
-    padding: 3rem 1.5rem; /* Adjust padding for mobile */
+    padding: 3rem 1.5rem;
   }
 
   .contact-container {
-    padding-left: 1rem; /* Ensure no excess space on left side */
-    padding-right: 1rem; /* Ensure no excess space on right side */
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   .contact-heading {
-    font-size: 1.8rem; /* Smaller heading size for mobile */
+    font-size: 1.8rem;
   }
 
   .contact-text {
-    font-size: 1rem; /* Adjust text size for mobile */
+    font-size: 1rem;
   }
 
   .contact-form {
-    gap: 1rem; /* Adjust form gap for mobile */
-    padding: 1.5rem; /* Adjust padding for mobile */
+    gap: 1rem;
+    padding: 1.5rem;
   }
 
   .form-label {
-    font-size: 1rem; /* Adjust form label font size */
+    font-size: 1rem;
   }
 
   .form-input,
   .form-textarea {
-    font-size: 1rem; /* Adjust font size for inputs */
-    padding: 0.8rem; /* Adjust padding for inputs */
+    font-size: 1rem;
+    padding: 0.8rem;
   }
 
   .contact-button {
-    font-size: 1rem; /* Adjust button font size */
-    padding: 0.8rem 1.5rem; /* Adjust button padding */
+    font-size: 1rem;
+    padding: 0.8rem 1.5rem;
   }
 
   .payment-button {
-    font-size: 1rem; /* Adjust payment button font size */
-    padding: 0.8rem 1.5rem; /* Adjust payment button padding */
+    font-size: 1rem;
+    padding: 0.8rem 1.5rem;
   }
 }
 
 /* For Extra Small Mobile Screens (Portrait mode) */
 @media (max-width: 480px) {
   .contact-section {
-    padding: 2rem 1rem; /* Reduce padding for very small screens */
+    padding: 2rem 1rem;
   }
 
   .contact-container {
-    padding-left: 0.5rem; /* Reduce padding on small screens */
-    padding-right: 0.5rem; /* Reduce padding on small screens */
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
 
   .contact-heading {
-    font-size: 1.6rem; /* Smaller heading for very small screens */
+    font-size: 1.6rem;
   }
 
   .contact-text {
-    font-size: 0.9rem; /* Smaller paragraph font size */
+    font-size: 0.9rem;
   }
 
   .contact-form {
-    gap: 0.8rem; /* Smaller gap between form elements */
-    padding: 1rem; /* Reduce padding for smaller screens */
+    gap: 0.8rem;
+    padding: 1rem;
   }
 
   .form-label {
-    font-size: 0.9rem; /* Smaller font size for labels */
+    font-size: 0.9rem;
   }
 
   .form-input,
   .form-textarea {
-    font-size: 0.9rem; /* Smaller font size for inputs */
-    padding: 0.7rem; /* Smaller padding for inputs */
+    font-size: 0.9rem;
+    padding: 0.7rem;
   }
 
   .contact-button {
-    font-size: 0.9rem; /* Smaller button font size */
-    padding: 0.7rem 1.2rem; /* Smaller padding for buttons */
+    font-size: 0.9rem;
+    padding: 0.7rem 1.2rem;
   }
 
   .payment-button {
-    font-size: 0.9rem; /* Smaller payment button font size */
-    padding: 0.7rem 1.2rem; /* Smaller padding for buttons */
+    font-size: 0.9rem;
+    padding: 0.7rem 1.2rem;
   }
 }
 
