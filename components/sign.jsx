@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom"; // Import useNavigate
+import { useNavigate, Link } from "react-router-dom"; // Import Link
 
 const SignIn = () => {
   const [gmail, setGmail] = useState('');
@@ -35,7 +35,7 @@ const SignIn = () => {
         />
 
         <button type="submit">Sign In</button>
-        <p className="rep">Don't Have An Account? <a href="/Find-Your-Perfect-Dog-Breed/register">Register Here</a>   </p>
+        <p className="rep">Don't Have An Account? <Link to="/register">Register Here</Link></p> {/* Use Link here */}
       </div>
     </form>
   );

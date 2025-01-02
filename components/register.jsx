@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom"; // Import Link from react-router-dom
 
 const Register = () => {
   const [firstName, setFirstName] = useState('');
@@ -76,7 +77,7 @@ const Register = () => {
         />
 
         <button type="submit">Register</button>
-        <p>Already have an account? <a href="/Find-Your-Perfect-Dog-Breed/sign">Sign In</a></p>
+        <p>Already have an account? <Link to="/sign">Sign In</Link></p> {/* Use Link here */}
       </div>
     </form>
   );

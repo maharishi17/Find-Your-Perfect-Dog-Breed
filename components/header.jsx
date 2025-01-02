@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
@@ -13,9 +14,9 @@ const Header = () => {
       </nav>
 
       <div className="header-icons">
-        <a className="lap" href="/Find-Your-Perfect-Dog-Breed/sign">
+        <Link to="/sign">
           <img src="/Find-Your-Perfect-Dog-Breed/images/logo/login.png" className="iconn" alt="Login Icon" />
-        </a>
+        </Link>
       </div>
     </header>
   );
