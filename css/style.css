@@ -674,7 +674,7 @@ html, body {
   flex-direction: column;
   gap: 1.5rem;
   background-color: #6c757d;
-  padding: 2rem;
+  padding: 3rem;
   border-radius: 8px;
   width: 100%; /* Ensure the form takes full width */
   box-sizing: border-box; /* Prevent overflow */
