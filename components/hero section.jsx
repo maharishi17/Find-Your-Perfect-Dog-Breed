@@ -2,10 +2,10 @@ import React, { useState, useEffect } from 'react';
 
 const HeroSection = () => {
   const images = [
-    '/images/banner/pear.jpg',
-    '/images/banner/jack.jpg',
-    '/images/banner/black.jpg',
-    '/images/banner/pexx.jpg',
+    '/Find-Your-Perfect-Dog-Breed/images/banner/pear.jpg',
+    '/Find-Your-Perfect-Dog-Breed/images/banner/jack.jpg',
+    '/Find-Your-Perfect-Dog-Breed/images/banner/black.jpg',
+    '/Find-Your-Perfect-Dog-Breed/images/banner/pexx.jpg',
   ];
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);

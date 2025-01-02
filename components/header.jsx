@@ -14,7 +14,7 @@ const Header = () => {
 
       <div className="header-icons">
         <a className="lap" href="/sign">
-          <img src="/images/logo/login.png" className="iconn" alt="Login Icon" />
+          <img src="/Find-Your-Perfect-Dog-Breed/images/logo/login.png" className="iconn" alt="Login Icon" />
         </a>
       </div>
     </header>

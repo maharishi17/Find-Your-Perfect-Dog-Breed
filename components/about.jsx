@@ -15,7 +15,7 @@ const AboutUs = () => {
         </div>
         <div className="about-us-image">
           <img
-            src="/images/logo/pexels-samson-katt-5257595.jpg"
+            src="/Find-Your-Perfect-Dog-Breed/images/logo/pexels-samson-katt-5257595.jpg"
             alt="About Us"
             className="about-us-img"
           />

@@ -1,6 +1,6 @@
 {
   "name": "types",
-"homepage": "https://maharishi17.github.io/Find-Your-Perfect-Dog-Breed",
+  "homepage": "https://maharishi17.github.io/Find-Your-Perfect-Dog-Breed",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
